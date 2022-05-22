@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+    <style> /*스타일 넣기*/
+        #table{
+            border-collapse: collapse;
+            user-select: none; /*테이블 블락 막기*/
+        }
+        #table td {
+            border: 1px solid black;
+            width: 150px;
+            height: 150px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table id="table">
+
+    </table>
+    <div id="score">0</div>
+    <script src="./2048.js"></script>
+</body>
+</html>
